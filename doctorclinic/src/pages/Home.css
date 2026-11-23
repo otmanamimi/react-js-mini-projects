@@ -1,0 +1,84 @@
+header {
+    margin-top: 0px;
+    background-color: #ededed;
+}
+
+header .row {
+    margin: 50px 0px;
+}
+
+header .row h5 {
+    color: var(--btn-color);
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+    text-transform: capitalize;
+
+}
+
+header h2 {
+    color: var(--main-color);
+    font-size: 50px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+
+}
+
+header .row button {
+    background-color: var(--orange-color) !important;
+    border: 1px solid var(--orange-color) !important;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px !important;
+    margin-top: 20px;
+    transition: .3s ease;
+}
+
+header .row button a {
+    color: #fff;
+    font-size: 17px;
+    transition: .2s ease;
+}
+
+header .row button:hover a {
+    color: #fff;
+}
+
+header .row button:hover {
+    opacity: .8;
+}
+
+header img {
+    width: 430px;
+    max-width: 100%;
+    height: auto;
+    transition: .3s ease all;
+    animation: mover 1s infinite alternate;
+}
+
+header .header-box {
+    position: relative;
+    max-width: 100%;
+}
+
+header svg {
+    font-size: 80px;
+    position: absolute;
+    color: var(--btn-color);
+    left: 0;
+    top: 10%;
+    animation: mover 1s infinite alternate;
+    /* transform: rotate(45deg) !important; */
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
